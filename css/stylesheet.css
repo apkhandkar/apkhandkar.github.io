@@ -35,6 +35,10 @@ body {
   text-transform: uppercase;
   font-weight: 800;
   color: rgb(110, 110, 110);
+} 
+
+#section_content {
+  margin-left: 10px;
 }
 
 #oops {
