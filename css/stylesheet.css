@@ -12,6 +12,16 @@ body {
   text-transform: lowercase;
 }
 
+a#greylink {
+  color: rgb(110, 110, 110);
+  text-decoration: none;
+}
+
+a#greylink:visited {
+  color: rgb(110, 110, 110);
+  text-decoration: none;
+}
+
 #subheader {
   font-family: sans-serif;
   font-weight: 700;
