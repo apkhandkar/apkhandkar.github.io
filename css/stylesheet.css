@@ -12,6 +12,12 @@ body {
   text-transform: lowercase;
 }
 
+@media only screen and (max-width: 540px) {
+  #header {
+    font-size: 20px;
+  }
+}
+
 a#greylink {
   color: rgb(110, 110, 110);
   text-decoration: none;
