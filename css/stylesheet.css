@@ -28,6 +28,10 @@ a#greylink:visited {
   text-decoration: none;
 }
 
+.boldlink {
+  font-weight: bold;
+}
+
 #subheader {
   font-family: sans-serif;
   font-weight: 700;
