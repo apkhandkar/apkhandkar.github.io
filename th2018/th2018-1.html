@@ -1,10 +1,41 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Image Clue</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style>
+      body {
+        background: grey;
+      }
+      .container {
+        position: absolute;
+        display: block;
+        width: 100%;
+        text-align: center;
+      }
+      .imgbox {
+        display: inline-block;
+        padding: 20px;
+      }
+      .clueimg {
+        width: 350px;
+        height: 350px; 
+      }
     </style>
   </head>
   <body>
+    <div class="container">
+      <div class="imgbox">
+        <img src="img1.jpeg" class="clueimg"/>
+      </div>
+      <br />
+      <div class="imgbox">
+        <img src="img2.jpeg" class="clueimg"/>
+      </div>
+      <br />
+      <div class="imgbox">
+        <img src="img3.jpeg" class="clueimg"/>
+      </div>
+    </div>
   </body>
 </html>
